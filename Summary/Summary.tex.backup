@@ -1,0 +1,157 @@
+%
+%                       This is a basic LeTeX Template
+%                       for the First Year Summary 
+\documentclass[a4paper,12pt]{article}
+\usepackage{head,fullpage}    % Add local fullpage macros
+\usepackage[pdftex]{graphicx} % Graphicx package with pdf support
+\usepackage{tabularx}
+\parindent=0pt          %  Switch off indent of paragraphs 
+\parskip=5pt            %  Put 5pt between each paragraph 
+\footruleheight{1pt}
+\headruleheight{1pt}
+\lfoot{\small School of Physics and Astronomy}
+\lhead{First Year Summary}
+\rhead{- \thepage}
+\cfoot{}
+\rfoot{Date: 18-5-09} 
+%
+%                       This section generates a title page
+%                       Edit only the sections indicated to put
+%                       in the project title, your name, supervisor,
+%                       project length in weeks and submission date
+%
+\begin{document}
+\begin{minipage}[b]{110mm}
+        {\Huge\bf School of Physics \\and Astronomy
+        \vspace*{17mm}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{40mm}               
+        \makebox[40mm]{
+        \includegraphics[width=40mm]{crest}}
+\end{minipage}
+\par\noindent                                           % Centre Title, and name
+\vspace*{5mm}
+\begin{center}
+        \Large\bf Proposed Project Title\\
+        \Large\bf First Year Summary
+\end{center}
+\vspace*{3mm}
+\begin{center}
+        \bf Patrick Sinclair\\                 % Replace with your name
+        May 2018                         % Submission Date
+\end{center}
+\vspace*{5mm}
+{\bf Supervisor:} Dr. Rosalind Allen                % Change to suit
+
+%                                               Through page and setup 
+\section{Project Outline}
+
+Antibiotic resistance is one of, if not the, most important issue in modern medicine.  Despite the massive prevalence of antibiotic usage, with over 260,000,000 prescriptions 
+being issued in the US alone each year, surprisingly little is known about the underlying pharmacodynamics, and what factors influence the emergence of resistance.  This lack 
+of understanding is becoming increasingly critical as our supply of viable antibiotics dwindles in comparison to the increasing number of resistant strains of bacteria.  In 
+2014 there were over 480,000 cases of drug-resistant tuberculosis reported, with only half of those cases able to be successfully treated.  Experts estimate that if current trends 
+continue, the number of deaths caused by drug-resistant bacteria will number in the millions, making further research in the field vital.
+
+Due to the enormity of this issue, it would be foolish to leave the responsibility of progress to just the biologists and chemists of the world.  This project therefore aims to 
+use stochastic computational modelling techniques to glean insight on how the presence of antibiotics influence bacterial colonies from a more physics based perspective.  In 
+particular, this project aims to investigate the impact of the application of antibiotics in the form of a gradient e.g., in the scenario of when drugs would be applied to a biofilm.  
+
+
+While these findings will obviously have important medical applications, they could also be of benefit in more industrial applications.  In particular, impeding, or even halting the 
+formation of biofilm formation on industrial shipping vessels.  The shipping industry currently consumes an exorbitant amount of fuel.  If it was a sovereign nation, it would be 
+the 7$^{\textrm{th}}$ largest producer of CO$_2$ on the planet and it's estimated that up to 
+
+
+\subsection*{Progress so far}
+
+So far several investigations have been performed into the effects of antibiotic gradients on the evolution and proliferation of bacterial colonies.  The first project 
+undertaken was to replicate the results of a PRL paper co-authored by my supervisor, which modelled how the steepness of antibiotic gradients in conjunction with differing 
+mutational pathways affected the time taken for resistance to emerge.  This was primarily intended as a ``warm-up'' project, in order to gain familiarity with modelling these 
+sorts of systems, and to build a foundation upon which further projects could be built. These simulations consisted of a simple 1D system 
+
+Following on from this, work on the next project began swiftly.  This was 
+
+\subsection*{Outlook}
+
+Following a meeting with our industrial partners AkzoNobel, it was decided that work would continue for the meanwhile on the nascent multispecies model.  They mentioned how 
+designing the right combination and release schedule of antimicrobials in order to promote the emergence of favourable biofilm compositions was of particular interest to them, 
+so they intend to send us data on various bacterial species and their corresponding growth rates/susceptibilities to several biocides such that they could be incorporated into 
+the multispecies model in order to deliver more quantitative, rather than simple proof-of-concept results.
+
+
+
+% Outline of your project, covering the scientific background, the rational
+% for your intended area of study and {\bf your progress to date}. 
+% This should concentrate on why this subject
+% area is important, interesting, worth studying and where you hope/believe your
+% work will lead. You should also describe the context of your PhD – how does it fit into the international agenda?
+% 
+% This section should be 2-3 pages and written for the {\em general scientific
+% reader}, (the typical reader of New Scientist, and in particular
+% should {\it not} include any mathematical derivations.)
+% 
+% The whole report {\em must not} exceed {\bf four} pages.
+
+\section{Critical Dependencies}
+
+If there are {\it critical dependencies} in your research work, detail them
+here, for example 
+``{\it\ldots my experimental work depend on the LHC being fixed\ldots}'' 
+and what steps have been taken to deal(?) with them.
+
+Also in this section outline any concerns about your progress, and 
+in particular any aspect that you feel are impeding your progress.
+  
+\section{Training and Courses}
+
+
+{\bf Course Attended in First Year}
+\begin{center}
+\begin{tabular}{l|c|c|c}
+  Name    &     Origin    & Assessed   & Hours\\
+  \hline
+  Intro to Soft Condensed Matter    &     SUPA      & Yes        & 20\\
+  Physics of Biological Evolution & SUPA         & Yes         & 10\\
+  Maths Primer & SUPA & Yes        & 6\\
+  Python & SUPA & Yes & 8\\
+  Preparing for the first year review & Transkills & No & 3
+\end{tabular}
+\end{center}
+
+
+
+{\bf Courses to be Attended in 2018-2019}
+\begin{center}
+\begin{tabularx}{0.8\textwidth}{|X|c|c|}
+  \hline
+  Name    &     Origin    & Assessed \\
+  \hline
+  \hline
+  Computational principles \newline to organize complexity & Summer school - INPHYNI & No\\
+  \hline
+  Advanced Data Analysis & SUPA & Yes\\
+  \hline
+  Introducing Biology to \newline Physicists & SUPA & Yes\\
+  \hline
+  Hands-on Writing & Transkills & No\\
+  \hline
+\end{tabularx}
+\end{center}
+
+\section{Teaching}
+\begin{center}
+\begin{tabular}{l|c|c}
+  Name     &    Semester   & Hours\\
+\hline
+  MfP1 Tutorials & 1 & 40\\
+  Practical Physics (SciProg) & 1 & 15 \\
+  Physics 1B Labs & 2 & 30\\
+\end{tabular}
+\end{center}
+
+I intend to undertake a similar amount of teaching in my second year, but most likely in different courses.
+ 
+
+\end{document}
+
